@@ -2,21 +2,22 @@
   padding: 96px 32px;
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+ /*  margin: 0 auto; */
   gap: 40px;
   font-family: "open sans";
   background-color: var(--primary-light);
   .image {
     overflow: hidden;
     max-height: 480px;
+    border-radius: 12px;
     img {
       width: 100%;
+     object-fit: cover;
     }
   }
 }
 
-
-.faq-list{
+.faq-list {
   width: 100%;
   max-width: 680px;
 }
@@ -39,26 +40,28 @@
 .faq-container {
   display: flex;
   flex-direction: column;
-
+/*   align-items: center; */
+/*   margin: 0 auto; */
   .image {
     margin-top: 40px;
-    img {
+   /*  img {
       min-width: 300px;
-    }
+    } */
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .faq-container {
     flex-direction: row;
     align-items: center;
     gap: 40px;
+    justify-content: center;
 
     .image {
       max-width: 668px;
       overflow: hidden;
       img {
-        width: 100%;
+        width: 100%; 
         object-fit: cover;
       }
     }
