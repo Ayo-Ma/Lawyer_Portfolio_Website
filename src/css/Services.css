@@ -1,0 +1,48 @@
+.services {
+  background-color: var(--primary-light);
+  padding: 96px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.services-text-supporting-text {
+  font-family: "open sans";
+  text-align: center;
+  h2 {
+    font-size: 32px;
+    line-height: 48px;
+    color: var(--primary-darker);
+    font-family: "playfair";
+    font-weight: 700;
+  }
+  h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--primary-dark);
+  }
+  p {
+    color: var(--gray-500);
+  }
+}
+
+.services-card-container {
+  border: 1px solid var(--primary-dark);
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--primary-dark);
+  }
+}
+
+@media screen and (min-width: 746px) {
+  .services-card-container {
+    max-width: 800px;
+    margin: 0 auto;
+    .row {
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+}

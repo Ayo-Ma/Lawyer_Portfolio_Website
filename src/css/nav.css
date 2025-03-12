@@ -1,0 +1,132 @@
+.free-consult {
+  padding: 12px 24px;
+  display: inline-block;
+  color: #fff;
+  background-color: var(--primary-darker);
+
+  &:hover {
+    transition: 0.3s ease;
+    background-color: var(--primary-dark);
+  }
+}
+.nav {
+  font-family: "Open Sans";
+  background-color: #fff;
+  box-shadow: 0 4px 14.8px -8px hsla(0, 0%, 39%, 0.313);
+  padding: 1rem 1rem;
+  a {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+.logo {
+  display: flex;
+  font-family: "playfair";
+  color: var(--gray-700);
+  align-items: center;
+  gap: 15px;
+
+  h2 {
+    letter-spacing: 4px;
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  img {
+    width: 50px;
+  }
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  background-color: var(--gray-800);
+  position: fixed;
+  padding: 8rem 1rem;
+  align-items: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  height: 100vh;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.nav-menu.active {
+  transform: translateX(100%);
+  transition: 0.5s ease;
+}
+
+.nav-links:hover {
+  color: var(--primary-dark);
+  transition: 0.3s ease;
+}
+
+.menu-icon {
+  z-index: 1;
+  color: #fff;
+  color: var(--primary-dark);
+  font-size: 3rem;
+  position: fixed;
+  top: 1.2rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .logo h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .nav-menu-icon {
+    display: none;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    gap: 0rem;
+    background-color: transparent;
+    position: static;
+    align-items: center;
+    padding: 0;
+    align-items: start;
+    height: auto;
+    ul {
+      flex-direction: row;
+      gap: 40px;
+    }
+  }
+  .nav-menu.active {
+    position: static;
+    transform: translateX(0);
+    align-items: center;
+    gap: 6rem;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    ul a {
+      font-size: 1rem;
+      color: var(--gray-600);
+      gap: 2rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .nav-menu.active {
+    gap: 12rem;
+  }
+  .nav {
+    padding-inline: 150px;
+  }
+}

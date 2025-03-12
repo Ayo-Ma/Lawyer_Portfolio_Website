@@ -1,0 +1,29 @@
+.btn-primary{
+    background-color: var(--primary-dark);
+    padding: 12px 24px;
+    display: inline-block;
+    color: #fff;
+    
+    &:hover{
+        background-color: var(--primary);
+    }
+}
+
+.btn{
+    padding: 12px 24px;
+    display: inline-block;
+  
+    &:hover{
+        transition: 0.3s ease;
+        
+    }
+}
+.btn-secondary{
+    background-color: transparent;
+    color: var(--primary-dark);
+      border:1px solid var(--primary-dark);
+    &:hover{
+        background-color: var(--primary-light);
+    }
+    
+}

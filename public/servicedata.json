@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "heading": "Corporate Law",
+    "bodyText": "Expert legal counsel for businesses.",
+    "iconPath": "/expertise icons/Scale.svg"
+  },
+  {
+    "id": 2,
+    "heading": "Real Estate Law",
+    "bodyText": "Handling property contracts & disputes.",
+    "iconPath": "/expertise icons/Building.svg"
+  },
+  {
+    "id": 3,
+    "heading": "Family Law",
+    "bodyText": "Divorce, custody, and estate matters.",
+    "iconPath": "/expertise icons/Family.svg"
+  },
+  {
+    "id": 4,
+    "heading": "Litigation & Dispute Resolution",
+    "bodyText": "Conflict resolution & legal representation.",
+    "iconPath": "/expertise icons/Brief-Case.svg"
+  },
+  {
+    "id": 5,
+    "heading": "Contract Law",
+    "bodyText": "Drafting & reviewing contracts.",
+    "iconPath": "/expertise icons/Hand Writing.svg"
+  },
+  {
+    "id": 6,
+    "heading": "Business Advisory",
+    "bodyText": "Legal guidance for business growth.",
+    "iconPath": "/expertise icons/Growth.svg"
+  }
+]

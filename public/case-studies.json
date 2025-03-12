@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "category": "Corporate",
+    "title": "Successful Merger Negotiation",
+    "summary": "Negotiated a high-profile merger between two major corporations, ensuring legal compliance and financial stability.",
+    "outcome": "The merger was approved without legal disputes, increasing shareholder value.",
+    "tag": "Corporate Law"
+  },
+  {
+    "id": 2,
+    "category": "Corporate",
+    "title": "Intellectual Property Protection",
+    "summary": "Defended a tech company’s patents from infringement, securing their market position.",
+    "outcome": "Successfully won a lawsuit, protecting intellectual property rights.",
+    "tag": "Corporate Law"
+  },
+  {
+    "id": 3,
+    "category": "Corporate",
+    "title": "Corporate Fraud Investigation",
+    "summary": "Investigated and provided legal counsel on an internal corporate fraud case.",
+    "outcome": "Recovered losses and implemented stricter compliance measures.",
+    "tag": "Corporate Law"
+  },
+  {
+    "id": 4,
+    "category": "Corporate",
+    "title": "Tax Compliance Advisory",
+    "summary": "Helped a multinational company navigate complex tax laws and avoid legal penalties.",
+    "outcome": "Company remained compliant, avoiding financial losses.",
+    "tag": "Corporate Law"
+  },
+  {
+    "id": 5,
+    "category": "Criminal",
+    "title": "Wrongful Accusation Defense",
+    "summary": "Successfully defended a client falsely accused of a serious crime.",
+    "outcome": "Client was acquitted due to lack of evidence.",
+    "tag": "Criminal Law"
+  },
+  {
+    "id": 6,
+    "category": "Criminal",
+    "title": "High-Profile Criminal Appeal",
+    "summary": "Appealed a wrongful conviction, securing the client’s release.",
+    "outcome": "Sentence overturned, client freed.",
+    "tag": "Criminal Law"
+  },
+  {
+    "id": 7,
+    "category": "Criminal",
+    "title": "Self-Defense Case Win",
+    "summary": "Defended a client in a self-defense homicide case.",
+    "outcome": "Not guilty verdict secured.",
+    "tag": "Criminal Law"
+  },
+  {
+    "id": 8,
+    "category": "Criminal",
+    "title": "White-Collar Crime Defense",
+    "summary": "Represented a client accused of financial fraud in a complex case.",
+    "outcome": "Charges reduced significantly.",
+    "tag": "Criminal Law"
+  },
+  {
+    "id": 9,
+    "category": "Contract",
+    "title": "Breach of Contract Resolution",
+    "summary": "Helped a company recover losses from a breached contract agreement.",
+    "outcome": "Compensation was successfully obtained.",
+    "tag": "Contract Law"
+  },
+  {
+    "id": 10,
+    "category": "Contract",
+    "title": "Contract Dispute Mediation",
+    "summary": "Mediated a contract dispute between two major firms.",
+    "outcome": "Settlement reached without litigation.",
+    "tag": "Contract Law"
+  },
+  {
+    "id": 11,
+    "category": "Contract",
+    "title": "Employment Contract Review",
+    "summary": "Ensured fairness and compliance in a multi-million dollar employment contract.",
+    "outcome": "Successful negotiation for both parties.",
+    "tag": "Contract Law"
+  },
+  {
+    "id": 12,
+    "category": "Contract",
+    "title": "Real Estate Contract Litigation",
+    "summary": "Represented a client in a real estate contract breach case.",
+    "outcome": "Won the case, securing property rights.",
+    "tag": "Contract Law"
+  },
+  {
+    "id": 13,
+    "category": "Employment",
+    "title": "Wrongful Termination Lawsuit",
+    "summary": "Represented an employee in a wrongful termination claim.",
+    "outcome": "Employee was compensated and reinstated.",
+    "tag": "Employment Law"
+  },
+  {
+    "id": 14,
+    "category": "Employment",
+    "title": "Workplace Harassment Case",
+    "summary": "Advocated for an employee in a workplace harassment dispute.",
+    "outcome": "Client received justice and policy changes were made.",
+    "tag": "Employment Law"
+  },
+  {
+    "id": 15,
+    "category": "Employment",
+    "title": "Discrimination Lawsuit Victory",
+    "summary": "Defended a client in a workplace discrimination case.",
+    "outcome": "Employer was held accountable, and compensation was awarded.",
+    "tag": "Employment Law"
+  },
+  {
+    "id": 16,
+    "category": "Employment",
+    "title": "Employee Rights Advocacy",
+    "summary": "Helped employees negotiate better contracts and workplace conditions.",
+    "outcome": "Improved labor policies in the company.",
+    "tag": "Employment Law"
+  }
+]

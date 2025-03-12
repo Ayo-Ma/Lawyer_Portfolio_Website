@@ -1,0 +1,67 @@
+.hero{
+    padding-block: 96px;
+    padding-inline: 16px;
+    background-image: url("./Hero Image.svg");
+    background-size: cover;
+    background-position: left;
+    background-color: var(--primary-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+}
+
+.hero-content{
+    
+    text-align: center;
+    font-family: 'Open sans';
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+   
+}
+
+.hero-content h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--gray-500);
+    font-family: "Playfair";
+    line-height: calc(2.5rem * 1.5);
+}
+
+.hero-content p{
+    font-size: 1;
+    color: var(--gray-400);
+    line-height: calc(1rem * 1.5);
+}
+
+.hero-btn{
+    line-height: calc(16px * 1.5);
+    display: flex;
+    width: 100%;
+    max-width: 375px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 744px){
+    .hero{
+        padding-inline: 64px;
+    }
+    .hero-content h1{
+        font-size: 3rem;
+    }
+    .hero-btn{
+        gap: 24px;
+    }
+    
+}
+
+
+@media  screen and (min-width: 1024px){
+    h1{
+        max-width: 640px;
+    }
+    
+}

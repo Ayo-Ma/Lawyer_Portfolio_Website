@@ -1,0 +1,87 @@
+[
+    {
+      "name": "James Akande",
+      "role": "CEO, Akande Enterprises",
+      "rating": 5,
+      "quote": "LexElite provided outstanding legal support during our corporate merger. Their expertise ensured a smooth and favorable outcome.",
+      "image": "/images/testimonial-bg1.jpg"
+    },
+    {
+      "name": "Sophia Bennett",
+      "role": "Small Business Owner",
+      "rating": 5,
+      "quote": "LexElite handled my business contracts with professionalism and attention to detail. Highly recommended!",
+      "image": "/images/testimonial-bg2.jpg"
+    },
+    {
+      "name": "Michael O'Connor",
+      "role": "Real Estate Investor",
+      "rating": 5,
+      "quote": "He made my property acquisition process seamless, ensuring I avoided costly legal pitfalls.",
+      "image": "/images/testimonial-bg3.jpg"
+    },
+    {
+      "name": "Aisha Mohammed",
+      "role": "Entrepreneur",
+      "rating": 4,
+      "quote": "I was facing a complex legal issue with a business partner, and LexElite’s legal guidance helped me resolve it efficiently.",
+      "image": "/images/testimonial-bg4.jpg"
+    },
+    {
+      "name": "David Brown",
+      "role": "Tech Startup Founder",
+      "rating": 5,
+      "quote": "Thanks to LexElite, our startup’s intellectual property is well-protected. Their legal expertise was invaluable.",
+      "image": "/images/testimonial-bg5.jpg"
+    },
+    {
+      "name": "Elena Rodriguez",
+      "role": "Divorce Client",
+      "rating": 5,
+      "quote": "I was guided through a difficult divorce with professionalism and compassion. I couldn't have asked for better legal representation.",
+      "image": "/images/testimonial-bg6.jpg"
+    },
+    {
+      "name": "Nathan Carter",
+      "role": "Financial Consultant",
+      "rating": 5,
+      "quote": "LexElite provided top-notch legal advice on financial regulations, helping my firm stay compliant with ease.",
+      "image": "/images/testimonial-bg7.jpg"
+    },
+    {
+      "name": "Grace Williams",
+      "role": "Corporate Client",
+      "rating": 4,
+      "quote": " LexElite is reliable and highly knowledgeable. He helped us draft ironclad contracts that protected our interests.",
+      "image": "/images/testimonial-bg8.jpg"
+    },
+    {
+      "name": "Daniel Kim",
+      "role": "Litigation Client",
+      "rating": 5,
+      "quote": "LexElite represented me in court, and his strategic approach won the case! A true professional in the legal field.",
+      "image": "/images/testimonial-bg9.jpg"
+    },
+    {
+      "name": "Lucy Zhang",
+      "role": "Estate Planning Client",
+      "rating": 5,
+      "quote": "I had no idea where to start with my estate planning, but the team made it simple and stress-free.",
+      "image": "/images/testimonial-bg10.jpg"
+    },
+    {
+      "name": "Ethan Walker",
+      "role": "Employment Dispute Client",
+      "rating": 5,
+      "quote": "I was wrongfully terminated, but thanks to LexElite, I received the justice I deserved.",
+      "image": "/images/testimonial-bg11.jpg"
+    },
+    {
+      "name": "Olivia Martinez",
+      "role": "Criminal Defense Client",
+      "rating": 5,
+      "quote": "When I needed strong legal defense, LexElite fought for my rights and secured the best possible outcome.",
+      "image": "/images/testimonial-bg12.jpg"
+    }
+  ]
+  

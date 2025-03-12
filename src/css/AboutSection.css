@@ -1,0 +1,233 @@
+.about{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.228), rgba(0, 0, 0, 0.84)),
+    url('/still-life-world-intellectual-property-day.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'open sans', sans-serif;
+    /* height: 100vh; */
+    overflow-y: hidden;
+}
+
+.col1 .image{
+    max-width: 744px;
+    overflow: hidden;
+    height: 450px;
+
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #fff;
+    margin-bottom: 32px;
+    text-align: center;
+
+    p{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    .name-text{
+        font-size: 2rem;
+        color: var(--primary-darker);
+        font-family: 'playfair';
+        font-weight: 700;
+        line-height: var(32px * 1.5); 
+    }
+}
+.about-content{
+    padding-inline: 16px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+}
+.about-content-text-and-supporting-text{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        font-family: 'playfair';
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: var(--primary-darker);
+    }
+
+    p{
+        font-size: 1rem;
+        color:#fff;
+        line-height: calc(1rem * 1.5);
+
+        .itl-text{
+            font-family: 'playfair';
+            font-size: 3rem;
+        }
+    }
+}
+.goal{
+    font-size: 12px;
+    color: var(--primary);
+    font-family: 'playfair display';
+    text-align: right;
+}
+
+.educational-background{
+    background-color: hsla(0, 0%, 100%, 0.301);
+    
+    border-left: 1px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-style: solid;
+    border-color: var(--primary-darker);
+    color: #fff;
+    padding: 16px 8px;
+    margin-left :32px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+   gap: 8px;
+
+   margin-top: 18px;
+}
+
+.educational-background-row1{
+    display: flex;
+    gap: 4px;
+
+
+}
+.col2{
+    padding-block: 64px 32px;
+}
+
+
+@media screen and (min-width: 744px){
+    .about{
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        justify-content: center;
+    }
+    .col1 .image{
+        max-width: 100%;
+        overflow: visible;
+        height: auto;
+    }
+    .name{
+        p{
+            font-size: 16px;
+          
+        }
+    
+        .name-text{
+            font-size: 3rem;
+        }
+    }
+
+    .col1{
+        flex: 1;
+    }
+
+    .col2{
+        flex: 1;
+    }
+
+    .about-content{
+        padding-inline: 0;
+    }
+
+    .about-content-text-and-supporting-text{
+        align-items: flex-start;
+
+        h2{
+        
+            font-size: 2rem;
+            color: var(--primary-darker);
+        }
+    }
+
+    .goal{
+        text-align: left;
+    }
+
+    .educational-background{
+        margin-left: 0;
+    }
+    .educational-background{
+        /* padding: 32px 16px; */
+        gap: 8px;
+      max-width: 450px;
+     position: absolute;
+     margin-bottom: -100px;
+        margin-top: 32px;
+     left: 50%;
+        
+
+        .educational-background-row1{
+            gap: 6px;
+        }
+        
+    }
+}
+
+
+
+@media screen and (min-width: 1024px){
+    .about{
+        padding-inline: 64px;
+        align-items: start;
+        background-position: center;
+        
+    }
+
+    .image img{
+        max-width: 500px;
+        object-fit: cover;
+    }
+    .col1{
+        flex: 1;
+    }
+
+    .col2{
+        flex: 2;
+    }
+
+    .name{
+        text-align:left;
+        margin-bottom: 65px;
+    }
+
+    .about-content-text-and-supporting-text{
+        max-width:564px ;
+        
+    }
+    .about-content{
+        margin-bottom: 25px;
+    }
+
+    .educational-background{
+        padding: 32px 16px;
+        gap: 8px;
+      max-width: 450px;
+     position: absolute;
+     left: 50%;
+        
+
+        .educational-background-row1{
+            gap: 6px;
+        }
+        
+    }
+    .image{
+        overflow: hidden;
+    }
+
+}

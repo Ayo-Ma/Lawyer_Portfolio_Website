@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Understanding Criminal Law",
+    "author": "John Doe",
+    "description": "An in-depth look into criminal law and its impact on society.",
+    "content": "Criminal law is the body of law that relates to crime. It regulates social conduct and prescribes whatever is threatening, harmful, or otherwise endangering to the property, health, safety, and moral welfare of people...",
+    "image": "/images/criminal-law.jpg",
+    "tags": "Criminal Law"
+  },
+  {
+    "id": 2,
+    "title": "The Future of AI in Healthcare",
+    "author": "Jane Smith",
+    "description": "How artificial intelligence is transforming the medical field.",
+    "content": "Artificial intelligence is rapidly changing healthcare. From diagnostics to personalized treatment plans, AI is playing a crucial role in improving patient outcomes and streamlining medical processes...",
+    "image": "/images/ai-healthcare.jpg",
+    "tags": "AI"
+  },
+  {
+    "id": 3,
+    "title": "Building Scalable Web Applications",
+    "author": "Michael Lee",
+    "description": "Key principles to designing high-performance web applications.",
+    "content": "Scalability is a crucial factor in web development. Understanding database optimizations, caching strategies, and microservices architecture can greatly improve application performance...",
+    "image": "/images/web-scalability.jpg",
+    "tags": "Corporate Law"
+  }
+]
