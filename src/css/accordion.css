@@ -1,8 +1,9 @@
 .accordion-item {
     margin-bottom: 10px;
     overflow: hidden;    
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--gray-200);
     transition: all 0.3s ease;
+    
   }
   
   .accordion-trigger {
@@ -13,7 +14,8 @@
     padding: 15px;
     border: none;
     cursor: pointer;
-    font-size: 18px;
+    color: var(--gray-700);
+    font-size: 16px;
     transition: all 0.3s;
   }
   
@@ -22,11 +24,12 @@
     font-size: 16px;
     display: flex;
     align-items: center;
+    color: var(--primary-darker);
   }
   
   .accordion-content {
     padding: 15px;
-    background: #fff;
+    color: var(--gray-500);
     display: none;
   }
   
