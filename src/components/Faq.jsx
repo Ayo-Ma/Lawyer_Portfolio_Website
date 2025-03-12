@@ -1,4 +1,5 @@
 import "../css/accordion.css";
+import '../css/faq.css';
 import * as Accordion from "@radix-ui/react-accordion";
 import CustomAccordion from "./MyAccordion";
 import { useEffect, useState } from "react";
