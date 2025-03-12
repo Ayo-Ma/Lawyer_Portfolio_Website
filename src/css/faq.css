@@ -1,8 +1,7 @@
-.faq{
-
-    .image{
-        img{
-            width: 100%;
-        }
+.faq {
+  .image {
+    img {
+      width: 450px;
     }
+  }
 }
