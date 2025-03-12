@@ -11,7 +11,7 @@
   }
   
   .testimonial-title {
-    font-size: 32px;
+    font-size: var(--section-heading);
     font-weight: bold;
     font-family: 'playfair';
     color: var(--primary-darker);

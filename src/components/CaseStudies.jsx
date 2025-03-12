@@ -45,7 +45,7 @@ const CaseStudies = () => {
   };
 
   return (
-    <section className="case_study">
+    <section className="case_study" id="case">
       <div className="filters_heading">
         <div className="case_study_text_and_supporting_text">
           <h5>Case Studies</h5>

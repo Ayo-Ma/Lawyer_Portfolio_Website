@@ -7,6 +7,7 @@ import CaseStudies from "./components/CaseStudies";
 import Testimonials from "./components/Testimonials";
 import BlogList from "./components/BlogList";
 import Faq from "./components/Faq";
+import Footer from "./components/Contact";
 /* import BlogDetail from "./components/BlogDetail";
 import NotFound from "./components/NotFound"; */
 /* import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; */
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <BlogList />
       <Faq />
+      <Footer />
     </>
   );
 }

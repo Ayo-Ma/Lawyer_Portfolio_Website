@@ -17,7 +17,7 @@
   text-align: center;
 
   h2 {
-    font-size: 32px;
+    font-size:var(--section-heading);
     line-height: 48px;
     color: var(--primary-darker);
     font-family: "playfair";

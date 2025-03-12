@@ -3,7 +3,7 @@ import "../css/AboutSection.css";
 import MyImage from "../LexElite Assets/images/me.webp";
 const AboutSection = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="col1">
         <div className="image">
           <img loading="lazy" src={MyImage} alt="" />

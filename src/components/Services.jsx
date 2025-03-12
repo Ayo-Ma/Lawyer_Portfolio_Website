@@ -23,7 +23,7 @@ const Services = () => {
   }, []);
 
   return (
-    <section className="services">
+    <section className="services" id="service">
       <div className="services-text-supporting-text">
         <h5>Services</h5>
         <h2>Our Legal Practices</h2>

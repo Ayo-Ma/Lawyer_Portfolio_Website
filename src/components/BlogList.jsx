@@ -15,7 +15,7 @@ const BlogList = () => {
   }, []);
 
   return (
-    <section className="blog-list">
+    <section className="blog-list" id="blog">
       <div className="blog-list-text">
         <p>Blogs</p>
         <h2>Insights & Legal Trends</h2>

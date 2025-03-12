@@ -8,10 +8,20 @@
   box-sizing: border-box;
   font-size: 100%;
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 120px;
+}
 :root {
   font-family: "Playfair";
   line-height: 1.5;
   font-weight: 400;
+
+
+  --section-heading:2rem;
+  --section-body:1rem;
+
+
   /* ------ Color Styles ------ */
   --primary-light: #f4ecd8;
   --primary-dark: #b19c62;
@@ -39,23 +49,17 @@ a {
   color: var(--gray-600);
 }
 
-ul,li{
+ul,
+li {
   list-style: none;
 }
 
-button{
+button {
   cursor: pointer;
   border: none;
   background-color: transparent;
 }
 
-
-body{
+body {
   min-height: 100svh;
-
-  
 }
-
-
-
-
