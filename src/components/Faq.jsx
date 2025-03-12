@@ -3,7 +3,7 @@ import '../css/faq.css';
 import * as Accordion from "@radix-ui/react-accordion";
 import CustomAccordion from "./MyAccordion";
 import { useEffect, useState } from "react";
-import image from '../LexElite Assets/images/scale of justice.jpg'
+import image from '../LexElite Assets/images/scale of justice.webp'
 const Faq = () => {
   const [faqQuestions, setfaqQuestions] = useState([]);
   useEffect(() => {
@@ -32,7 +32,7 @@ const Faq = () => {
         ))}
       </Accordion.Root>
       <div className="image">
-        <img src={image} alt="" />
+        <img loading="lazy" src={image} alt="" />
       </div>
       </div>
    

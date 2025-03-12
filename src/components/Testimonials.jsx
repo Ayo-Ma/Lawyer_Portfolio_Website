@@ -5,7 +5,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../css/Testimonial.css";
 import { useState, useEffect } from "react";
-import Image from '../LexElite Assets/images/scale of justice.jpg'
+import Image from '../LexElite Assets/images/scale of justice.webp'
 
 const Testimonials = () => {
   useEffect(() => {

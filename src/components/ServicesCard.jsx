@@ -4,7 +4,7 @@ const ServicesCard = (props) => {
   return (
     <div className="services-card">
         <div className="services-card-icon">
-            <img src={props.icon} alt="icon" />
+            <img loading="lazy" src={props.icon} alt="icon" />
         </div>
         <div className="services-card-text">
             <h3>{props.heading}</h3>

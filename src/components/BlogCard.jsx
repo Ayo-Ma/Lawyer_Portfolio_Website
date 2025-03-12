@@ -1,9 +1,9 @@
 import '../css/blog-card.css'
-import BlogImage from '../LexElite Assets/images/me.jpg'
+import BlogImage from '../LexElite Assets/images/me.webp'
 const BlogCard = (props) => {
   return (
     <div className="blog-card">
-      <img src={BlogImage} alt="" className="blog-image" />
+      <img loading="lazy" src={BlogImage} alt="" className="blog-image" />
       <div className="blog-text">
         <p className="blog-tag">{props.tag}</p>
         <div className="blog-text-content">

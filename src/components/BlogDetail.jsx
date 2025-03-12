@@ -22,7 +22,7 @@ const BlogDetail = () => {
     <div className="blog-details">
       <h1>{blog.title}</h1>
       <p className="author">By {blog.author}</p>
-      <img src={blog.image} alt={blog.title} className="blog-image" />
+      <img  loading="lazy"src={blog.image} alt={blog.title} className="blog-image" />
       <p className="content">{blog.content}</p>
       <Link to="/" className="back-home">Back to Blogs</Link>
     </div>

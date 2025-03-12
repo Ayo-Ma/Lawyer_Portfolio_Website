@@ -1,12 +1,12 @@
 import React from "react";
 import "../css/AboutSection.css";
-import MyImage from "../LexElite Assets/images/me.jpg";
+import MyImage from "../LexElite Assets/images/me.webp";
 const AboutSection = () => {
   return (
     <section className="about">
       <div className="col1">
         <div className="image">
-          <img src={MyImage} alt="" />
+          <img loading="lazy" src={MyImage} alt="" />
         </div>
       </div>
       <div className="col2">

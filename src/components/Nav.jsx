@@ -12,7 +12,7 @@ const Nav = () => {
     <>
     <nav className="nav" role="navigation" aria-label="main navigation">
      <div className="logo">
-        <img src={Logo} alt=""  />
+        <img loading="lazy" src={Logo} alt=""  />
         <h2>LexElite</h2>
      </div>
      <div onClick={toggleMenu} className={`nav-menu ${!showMenu ? 'active' : ""}`} >
