@@ -32,7 +32,7 @@ const Faq = () => {
         ))}
       </Accordion.Root>
       <div className="image">
-        <img src={image} alt="" />
+      {/*   <img src={image} alt="" /> */}
       </div>
       </div>
    
