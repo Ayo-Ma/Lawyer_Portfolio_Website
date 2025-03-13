@@ -27,7 +27,8 @@ const BlogList = () => {
             tag={blogs.tags}
             title={blogs.title}
             description={blogs.description}
-            links={blogs.links}
+            links={blogs.link}
+            image = {blogs.image}
           />
         ))}
       </div>

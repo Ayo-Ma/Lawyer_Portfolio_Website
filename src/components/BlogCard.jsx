@@ -3,7 +3,7 @@ import BlogImage from '../LexElite Assets/images/me.webp'
 const BlogCard = (props) => {
   return (
     <div className="blog-card">
-      <img loading="lazy" src={BlogImage} alt="" className="blog-image" />
+      <img loading="lazy" src={props.image} alt="" className="blog-image" />
       <div className="blog-text">
         <p className="blog-tag">{props.tag}</p>
         <div className="blog-text-content">
@@ -12,7 +12,7 @@ const BlogCard = (props) => {
             <p>{props.description}
             </p>
           </div>
-          <a className='blog-link' href="#">Learn More</a>
+          <a className='blog-link' href={props.links} target='_blank'>Learn More</a>
         </div>
       </div>
     </div>
