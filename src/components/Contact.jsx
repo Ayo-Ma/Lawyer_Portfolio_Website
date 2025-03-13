@@ -15,10 +15,76 @@ const Footer = () => {
       <section className="contact">
         <form action="" className="contact-form">
           <p>Request for a Consultation</p>
-          <TextField id="standard-basic" fullWidth  label="Name" variant="standard" />
-          <TextField id="standard-basic" fullWidth label="E-mail" variant="standard" />
-          <TextField id="standard-basic" fullWidth label="Phone" variant="standard" />
-          <TextField id="standard-basic" fullWidth label="Message" variant="standard" />
+          <TextField
+            id="standard-basic"
+            color="#fff"
+            fullWidth
+            label="Name"
+            sx={{
+              "& label": { color: "#fff" }, // Label color
+              "& label.Mui-focused": { color: "#b19d60" }, // Label when focused
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": { borderColor: "#fff" }, // Default border color
+                "&:hover fieldset": { borderColor: "#b19d60" }, // Border on hover
+                "&.Mui-focused fieldset": { borderColor: "#fff" },
+
+                backgroundColor: "#fff", // Background color
+              },
+            }}
+            variant="standard"
+          />
+          <TextField
+            id="standard-basic"
+            fullWidth
+            label="E-mail"
+            variant="standard"
+            sx={{
+              "& label": { color: "#fff" }, // Label color
+              "& label.Mui-focused": { color: "#b19d60" }, // Label when focused
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": { borderColor: "#fff" }, // Default border color
+                "&:hover fieldset": { borderColor: "#b19d60" }, // Border on hover
+                "&.Mui-focused fieldset": { borderColor: "#b19d60" },
+
+                backgroundColor: "lightgray", // Background color
+              },
+            }}
+          />
+          <TextField
+            id="standard-basic"
+            fullWidth
+            label="Phone"
+            sx={{
+              "& label": { color: "#fff" }, // Label color
+              "& label.Mui-focused": { color: "#b19d60" }, // Label when focused
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": { borderColor: "#fff" }, // Default border color
+                "&:hover fieldset": { borderColor: "#b19d60" }, // Border on hover
+                "&.Mui-focused fieldset": { borderColor: "#b19d60" },
+
+                backgroundColor: "lightgray", // Background color
+              },
+            }}
+            variant="standard"
+          />
+          <TextField
+            id="standard-textarea"
+            label="Multiline Placeholder"
+            placeholder="Placeholder"
+            multiline
+            variant="standard"
+            sx={{
+              "& label": { color: "#fff" }, // Label color
+              "& label.Mui-focused": { color: "#b19d60" }, // Label when focused
+              "& .MuiOutlinedInput-root": {
+                "& fieldset": { borderColor: "#fff" }, // Default border color
+                "&:hover fieldset": { borderColor: "#b19d60" }, // Border on hover
+                "&.Mui-focused fieldset": { borderColor: "#b19d60" },
+
+                backgroundColor: "lightgray", // Background color
+              },
+            }}
+          />
         </form>
       </section>
     </footer>
