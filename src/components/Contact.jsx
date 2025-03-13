@@ -32,13 +32,18 @@ const Footer = () => {
 
     try {
       const response = await axios.post(
-        "https://lawyer-portfolio-3j8n.onrender.com/api/contact-requests/ ",
+        "https://lawyer-portfolio-3j8n.onrender.com/api/contact-requests/",
         data
       );
+      console.log(data);
       setMessage("Form submitted successfully!");
       reset();
     } catch (error) {
-      setMessage("Error submitting form. Please try again.", error);
+      console.error("Submission Error:", error.response?.data || error.message);
+      setMessage(
+        "Error submitting form. Please try again.",
+        error.reponse?.data.message || "Error submitting form"
+      );
     } finally {
       setLoading(false);
     }

@@ -8,7 +8,7 @@ const Faq = () => {
   const [faqQuestions, setfaqQuestions] = useState([]);
   useEffect(() => {
     const fetchfaqQuestions = async () => {
-      const response = await fetch("/faq.json");
+      const response = await fetch("https://lawyer-portfolio-3j8n.onrender.com/api/FAQ/");
       const faqData = await response.json();
       console.log(faqData);
       setfaqQuestions(faqData);
