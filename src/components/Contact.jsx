@@ -32,7 +32,7 @@ const Footer = () => {
 
     try {
       const response = await axios.post(
-        "https://your-backend-api.com/contact",
+        "https://lawyer-portfolio-3j8n.onrender.com/api/contact-requests/ ",
         data
       );
       setMessage("Form submitted successfully!");
@@ -60,7 +60,9 @@ const Footer = () => {
           <h2>Contact Us</h2>
           <a
             className="google-map-cta"
-            href="https://www.google.com/maps?q=Yaba,+Lagos" target="_blank" >
+            href="https://www.google.com/maps?q=Yaba,+Lagos"
+            target="_blank"
+          >
             Check Google map <FaArrowRight />{" "}
           </a>
         </div>

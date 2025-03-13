@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../css/CaseStudies.css";
 import { FaArrowUp, FaArrowDown } from "react-icons/fa";
-import placeholder from "../LexElite Assets/images/me.webp"/* Images needs to be replaced from ponmile's backend */
+/* import placeholder from "../LexElite Assets/images/me.webp" */
 
 const CaseStudies = () => {
   const caseStudiesDataUrl = "https://lawyer-portfolio-3j8n.onrender.com/api/case-studies/";
@@ -73,20 +73,20 @@ const CaseStudies = () => {
         {filteredData.length > 0 ? (
           filteredData.map((caseStudy) => (
             <div key={caseStudy.id} className="case_study_card">
-              <img loading="lazy" src={placeholder} alt="Case Study" />
+              
               <div className="case_study_info">
                 <div className="case_study_info_heading">
                   <h3>{caseStudy.title}</h3>
-                  <span>{caseStudy.tag}</span>
+                  <span>{caseStudy.service}</span>
                 </div>
 
-                <p>{caseStudy.summary}</p>
+                <p>{caseStudy.description}</p>
                 <strong>{caseStudy.outcome}</strong>
               </div>
             </div>
           ))
         ) : (
-          <p>No case studies available.</p>
+          <span className="loading">No case studies available.</span>
         )}
       </div>
 
@@ -102,11 +102,10 @@ const CaseStudies = () => {
         <div className="case_study_grid">
           {caseStudyData.slice(6).map((caseStudy) => (
             <div key={caseStudy.id} className="case_study_card">
-              <img loading="lazy" src={placeholder} alt="Case Study" />
               <div className="case_study_info">
                 <h3>{caseStudy.title}</h3>
-                <span>{caseStudy.tag}</span>
-                <p>{caseStudy.summary}</p>
+                <span>{caseStudy.service}</span>
+                <p>{caseStudy.description}</p>
                 <strong>{caseStudy.outcome}</strong>
               </div>
             </div>

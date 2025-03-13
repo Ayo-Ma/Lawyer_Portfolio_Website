@@ -1,0 +1,23 @@
+.ticker-container {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    white-space: nowrap;
+    background: #1a1a1a; /* Dark background */
+    color: #fff;
+    padding: 10px 0;
+    font-size: 16px;
+    z-index: 100;
+    font-weight: bold;
+    
+  }
+  
+  .ticker {
+    display: inline-block;
+  }
+  
+  .ticker-item {
+    display: inline-block;
+    padding-right: 30px;
+  }
+  
