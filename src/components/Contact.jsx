@@ -45,7 +45,7 @@ const Footer = () => {
   };
 
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <div className="map-iframe-container">
         <iframe
           className="map-iframe"

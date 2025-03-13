@@ -52,7 +52,7 @@ const Experience = () => {
       <div className="cta">
         <h3>Need Legal Advice?</h3>
         <p>Let's discuss your case</p>
-        <a href="#" className="btn btn-primary">
+        <a href="#contact" className="btn btn-primary">
           Contact Me <FaArrowDown />
         </a>
       </div>
