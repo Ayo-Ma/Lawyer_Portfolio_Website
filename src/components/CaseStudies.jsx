@@ -4,7 +4,7 @@ import { FaArrowUp, FaArrowDown } from "react-icons/fa";
 /* import placeholder from "../LexElite Assets/images/me.webp" */
 
 const CaseStudies = () => {
-  const caseStudiesDataUrl = "https://lawyer-portfolio-3j8n.onrender.com/api/case-studies/";
+  const caseStudiesDataUrl = "/case-studies.json";
   const [caseStudyData, setCaseStudyData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [categories, setCategories] = useState(["All"]);
@@ -20,7 +20,7 @@ const CaseStudies = () => {
 
         const uniqueCategories = [
           "All",
-          ...new Set(jsonData.map((item) => item.service)),
+          ...new Set(jsonData.map((item) => item.category)),
         ];
         setCategories(uniqueCategories);
       } catch (err) {
@@ -39,7 +39,7 @@ const CaseStudies = () => {
       setFilteredData(caseStudyData.slice(0, 6));
     } else {
       setFilteredData(
-        caseStudyData.filter((item) => item.service === service)
+        caseStudyData.filter((item) => item.category === service)
       );
     }
   };
@@ -73,15 +73,14 @@ const CaseStudies = () => {
         {filteredData.length > 0 ? (
           filteredData.map((caseStudy) => (
             <div key={caseStudy.id} className="case_study_card">
-              
               <div className="case_study_info">
                 <div className="case_study_info_heading">
                   <h3>{caseStudy.title}</h3>
-                  <span>{caseStudy.service}</span>
+                  <span>{caseStudy.category}</span>
                 </div>
 
-                <p>{caseStudy.description}</p>
-                <strong>{caseStudy.outcome}</strong>
+                <p>{caseStudy.summary}</p>
+                <strong><span className="accent">Outcome: </span> {caseStudy.outcome}</strong>
               </div>
             </div>
           ))
@@ -103,10 +102,12 @@ const CaseStudies = () => {
           {caseStudyData.slice(6).map((caseStudy) => (
             <div key={caseStudy.id} className="case_study_card">
               <div className="case_study_info">
-                <h3>{caseStudy.title}</h3>
-                <span>{caseStudy.service}</span>
-                <p>{caseStudy.description}</p>
-                <strong>{caseStudy.outcome}</strong>
+              <div className="case_study_info_heading">
+                  <h3>{caseStudy.title}</h3>
+                  <span>{caseStudy.category}</span>
+                </div>
+                <p>{caseStudy.summary}</p>
+                <strong><span className="accent">Outcome: </span>{caseStudy.outcome}</strong>
               </div>
             </div>
           ))}

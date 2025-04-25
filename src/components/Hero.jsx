@@ -9,8 +9,8 @@ const Hero = () => {
         <p>Trusted legal expertise to protect your rights and interests with integrity</p>
       </div>
       <div className="hero-btn">
-        <a href="#" className="btn btn-secondary">Case Studies</a>
-        <a href="#" className="btn btn-primary">Legal Services</a>
+        <a href="#case" className="btn btn-secondary">Case Studies</a>
+        <a href="#service" className="btn btn-primary">Legal Services</a>
       </div>
     </section>
   );
